@@ -1,6 +1,6 @@
 import React from 'react'
 
-function DetailsScreen() {
+function ProductScreen() {
   return (
     <div>
       
@@ -8,4 +8,4 @@ function DetailsScreen() {
   )
 }
 
-export default DetailsScreen
+export default ProductScreen

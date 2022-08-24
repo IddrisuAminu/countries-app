@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import React from "react";
 import AboutScreen from "./screens/AboutScreen";
 import ContactScreen from "./screens/ContactScreen";
-import DetailsScreen from "./screens/DetailsScreen";
+import ProductScreen from "./screens/ProductScreen";
 import HomeScreen from "./screens/HomeScreen";
 import Header from "./components/Header";
 
@@ -15,7 +15,7 @@ function App() {
           <Route path="/" element={<HomeScreen />} />
           <Route path="/about" element={<AboutScreen />} />
           <Route path="/contact" element={<ContactScreen />} />
-          <Route path="/details:name" element={<DetailsScreen />} />
+          <Route path="/product" element={<ProductScreen />} />
         </Routes>
       </div>
     </BrowserRouter>
